@@ -49,3 +49,6 @@ nosetests
 build/
 dist/
 django_request_logger.egg-info/
+
+# Django migrations
+django_request_logger/migrations/
