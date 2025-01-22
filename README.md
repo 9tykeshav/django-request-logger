@@ -2,6 +2,8 @@
 
 A lightweight utility to log, analyze, and visualize HTTP request data in Django applications. It provides a variety of methods to generate charts like piecharts, bargraphs, and linegraphs for endpoints, HTTP methods, response codes, and more.
 
+![Example plot](./docs/example-plot.png)
+
 ## Example
 
 ```python
