@@ -14,7 +14,7 @@ def single_endpoint_http_method(self, url_name: str) -> HttpMethodData:
 from django_request_logger.log_viewer import RequestLogsViewer
 
 viewer = RequestLogsViewer()
-data = viewer.single_endpoint_http_method(url_name="test_endpoint")
+data = viewer.single_endpoint_http_method(url_name="hello")
 fig, ax = data.piechart()
 plt.show()
 ```
